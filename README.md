@@ -1,5 +1,5 @@
 Overview
-The Typing Test Application is designed to assess and improve users' typing speed and accuracy across three difficulty levels: Easy, Medium, and Hard. At the end of the test, a detailed performance report is generated, which includes typing speed (words per minute), accuracy, and error count.
+The Typing Test site is designed to assess and improve users' typing speed and accuracy across three difficulty levels: Easy, Medium, and Hard. At the end of the test, a detailed performance report is generated, which includes typing speed (words per minute), accuracy, and error count.
 
 Features
 Three difficulty levels: Easy, Medium, and Hard
