@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(242, 226, 226);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background-color: rgb(241, 241, 230);
+    border: 1px solid rgb(163, 158, 158);
+    border-radius: 20px;
+    width: 60%;
+    margin: 5% auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+#para {
+    width: fit-content;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    line-height: 40px;
+    margin: 0 auto 20px auto;
+    scroll-behavior: smooth;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.span {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.inp {
+    margin: 20px 0;
+}
+
+#input {
+    border: 2px solid rgb(66, 54, 54);
+    border-radius: 5px;
+    height: 40px;
+    width: 80%;
+    font-size: 24px;
+    padding: 5px;
+}
+
+#timer {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#results {
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: darkslategray;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#results h2 {
+    font-size: 40px;
+    font-style: italic;
+    color: blueviolet;
+    margin-bottom: 30px;
+}
+
+#results div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#results p {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#results .gross-speed, 
+#results .net-speed, 
+#results .accuracy {
+    width: 30%;
+}
+
+#results .gross-speed h3, 
+#results .net-speed h3, 
+#results .accuracy h3 {
+    font-size: 24px;
+    color: purple;
+    text-decoration: underline;
+}
+
+#results .gross-speed p, 
+#results .net-speed p, 
+#results .accuracy p {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+#results .wpm {
+    font-size: 20px;
+}
+
+#results .details p {
+    font-size: 18px;
+}
+
+#control1 {
+    margin-top: 20px;
+}
+
+#control1 button {
+    border: none;
+    background-color: rgb(125, 125, 192);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#control1 button:hover {
+    background-color: rgb(105, 105, 172);
+}
+
+#control1 button:active {
+    background-color: rgb(85, 85, 152);
+}
