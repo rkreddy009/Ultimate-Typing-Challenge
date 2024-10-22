@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="typing.css">
+    <title>Typing Test</title>
+</head>
+<body>
+    <div id="main1">
+        <!-- Timer Display -->
+        <div id="timer">
+            <span id="timerDisplay"></span>
+        </div>
+
+        <!-- Typing Test Area -->
+        <div id="test_div">
+            <div id="para"></div>
+            <div class="inp">
+                <input id="input" type="text" placeholder="Type here....." />
+            </div>
+        </div>
+
+        <!-- Controls for Restart and Exit -->
+        <div id="control">
+            <button onclick="restart()">Restart</button>
+            <button onclick="exit()">Exit</button>
+        </div>
+    </div>
+
+    <script src="typing.js"></script>
+</body>
+</html>

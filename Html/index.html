@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="typing.css">
+    <title>Typing Test - Select Difficulty</title>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>Select Difficulty Level and Start the Typing Test</h1>
+        </div>
+
+        <!-- Difficulty Level Selection -->
+        <div>
+            <label for="difficulty">Choose Difficulty:</label>
+            <select id="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        </div>
+
+        <!-- Start Button -->
+        <div>
+            <button id="startButton">Start Test</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('startButton').addEventListener('click', () => {
+            const difficulty = document.getElementById("difficulty").value;
+
+            // Store the difficulty value in localStorage to access it in typing1.html
+            localStorage.setItem('difficulty', difficulty);
+
+            // Navigate to typing1.html for the typing test
+            window.location.href = 'typing.html';
+        });
+    </script>
+</body>
+</html>
